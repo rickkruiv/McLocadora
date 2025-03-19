@@ -76,12 +76,12 @@
     }
     
     .produtos {
-    
         & .cards-products {
             gap: 1rem;
         }
 
         & .card {
+            width: 300px;
             flex-grow: 1 !important;
         }
     }
