@@ -1,0 +1,315 @@
+[
+    {
+        "nome": "Agulha de Ancoragem p/ trav de formas 80cm (un)",
+        "descricao": "Agulha de ancoragem para travamento de formas, 80cm.",
+        "imagem": "../assets/barra-de-ancoragem.webp",
+        "link": "https://wa.me/5544997687380?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Agulha%20de%20Ancoragem."
+    },
+    {
+        "nome": "Alisadora de concreto com motor a gasolina",
+        "descricao": "Alisadora de concreto com motor a gasolina, ideal para acabamento profissional.",
+        "imagem": "../assets/Alisadora-de-concreto-com-motor-a-gasolina.webp",
+        "link": "https://wa.me/5544997687380?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Alisadora%20de%20Concreto."
+    },
+    {
+        "nome": "Andaime tubular (1m alt.x 1,5 larg) 2pçs = 1mt",
+        "descricao": "Estrutura tubular para andaimes, 1m de altura por 1,5m de largura.",
+        "imagem": "../assets/andaime-tubular.jpg",
+        "link": "https://wa.me/5544997687380?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Andaime%20Tubular."
+    },
+    {
+        "nome": "Agrupador de pilar 3,0m (um)",
+        "descricao": "Agrupador de pilar com 3,0m para uso em estruturas de concreto.",
+        "imagem": "../assets/aprumador-pilar.png",
+        "link": "https://wa.me/5544997687380?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Agrupador%20de%20Pilar."
+    },
+    {
+        "nome": "Aspirador de pó 220v",
+        "descricao": "Aspirador de pó industrial 220v para limpeza eficiente.",
+        "imagem": "../assets/Aspirador-de-pó-industrial-220v.webp",
+        "link": "https://wa.me/5544997687380?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Aspirador%20de%20Pó%20220v."
+    },
+    {
+        "nome": "Betoneira 120L/150L",
+        "descricao": "Betoneira com motor monofásico (110/220v), ideal para mistura de concreto.",
+        "imagem": "../assets/betoneira.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Betoneira%20120L/150L."
+    },
+    {
+        "nome": "Betoneira 400L Gasolina",
+        "descricao": "Betoneira 400L com motor a gasolina 4 tempos para grandes volumes.",
+        "imagem": "../assets/betoneira.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Betoneira%20400L%20Gasolina."
+    },
+    {
+        "nome": "Betoneira 400L Monofásico",
+        "descricao": "Betoneira 400L com motor monofásico (110/220v) e trifásico (220v).",
+        "imagem": "../assets/betoneira.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Betoneira%20400L%20Monof%C3%A1sico."
+    },
+    {
+        "nome": "Betoneira 400L Normas",
+        "descricao": "Betoneira 400L certificada conforme as normas de segurança.",
+        "imagem": "../assets/betoneira.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Betoneira%20400L%20Normas."
+    },
+    {
+        "nome": "Bomba de Sucção",
+        "descricao": "Bomba de sucção submersa para água, 220v com mangueira inclusa.",
+        "imagem": "../assets/bomba-succao.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Bomba%20de%20Suc%C3%A7%C3%A3o."
+    },
+    {
+        "nome": "Compactador de Solo",
+        "descricao": "Compactador de solo com motor 4T a gasolina, ideal para obras.",
+        "imagem": "../assets/compatadorDeSolo.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Compactador%20de%20Solo."
+    },
+    {
+        "nome": "Compressor de Ar",
+        "descricao": "Compressor de ar 5,2 pés com motor monofásico e reservatório de 350mm.",
+        "imagem": "../assets/compressorDeAr.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Compressor%20de%20Ar."
+    },
+    {
+        "nome": "Cortadora de Piso",
+        "descricao": "Cortadora de piso com motor a gasolina e disco diamantado de 350mm.",
+        "imagem": "../assets/cortadoradepiso.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Cortadora%20de%20Piso."
+    },
+    {
+        "nome": "Encerradeira/Esfregadora",
+        "descricao": "Encerradeira/Esfregadora Certec auto volt sem esponjas.",
+        "imagem": "../assets/conservadoradepiso.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Encerradeira%20Esfregadora."
+    },
+    {
+        "nome": "Escada de Fibra",
+        "descricao": "Escada ajustável de 4,2 a 7,2m em fibra, resistente e segura.",
+        "imagem": "../assets/escadaFibra.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Escada%20de%20Fibra."
+    },
+    {
+        "nome": "Escada para Andaime",
+        "descricao": "Escada para andaime, lance de 2m, estrutura reforçada.",
+        "imagem": "../assets/escadaParaAndaime.jpg",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Escada%20para%20Andaime."
+    },
+    {
+        "nome": "Escora Metálica 3,2m",
+        "descricao": "Escora metálica de 3,2m, resistente e ajustável para sustentação de estruturas.",
+        "imagem": "../assets/escoraMetalica.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Escora%20Met%C3%A1lica%203,2m."
+    },
+    {
+        "nome": "Escora Metálica 3,6m",
+        "descricao": "Escora metálica de 3,6m, ideal para sustentação de estruturas pesadas.",
+        "imagem": "../assets/escoraMetalica.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Escora%20Met%C3%A1lica%203,6m."
+    },
+    {
+        "nome": "Escora Metálica 4,0m",
+        "descricao": "Escora metálica de 4,0m, maior estabilidade e suporte estrutural.",
+        "imagem": "../assets/escoraMetalica.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Escora%20Met%C3%A1lica%204,0m."
+    },
+    {
+        "nome": "Esmerilhadeira Angular",
+        "descricao": "Esmerilhadeira angular de 7'' ou 9'', elétrica 220v, robusta e eficiente.",
+        "imagem": "../assets/esmilhadeira.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Esmerilhadeira%20Angular."
+    },
+    {
+        "nome": "Furadeira a Bateria MAKITA",
+        "descricao": "Furadeira a bateria Makita, modelo compacto e potente para diversos tipos de perfuração.",
+        "imagem": "../assets/parafusadeiraImpacto.jpg",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Furadeira%20a%20Bateria%20MAKITA."
+    },
+    {
+        "nome": "Furadeira eletrica SDS Plus para concreto Bosh",
+        "descricao": "Furadeira elétrica SDS Plus da Bosh, ideal para perfuração em concreto e materiais pesados.",
+        "imagem": "../assets/marteloPerfurador.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Furadeira%20eletrica%20SDS%20Plus%20para%20concreto%20Bosh."
+    },
+    {
+        "nome": "Gerador de energia",
+        "descricao": "Gerador de energia a gasolina de 3500kva com motor 4T, ideal para pequenas obras e emergências.",
+        "imagem": "../assets/gerador_3500kva.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Gerador%20de%20energia%20a%20gasolina%204t%203500kva."
+    },
+    {
+        "nome": "Gerador de energia",
+        "descricao": "Gerador de energia a gasolina 5500kva com motor 4T, indicado para médios porte de obras.",
+        "imagem": "../assets/gerador_5500kva.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Gerador%20de%20energia%20a%20gasolina%204t%205500kva."
+    },
+    {
+        "nome": "Gerador de energia",
+        "descricao": "Gerador de energia a gasolina 8000kva com motor 4T, potente e durável para grandes demandas.",
+        "imagem": "../assets/gerador_8000kva.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Gerador%20de%20energia%20a%20gasolina%204t%208000kva."
+    },
+    {
+        "nome": "Guincho de coluna 220v c/ balde c/braço c/ torre 3m",
+        "descricao": "Guincho de coluna 220v com balde, braço e torre de 3m.",
+        "imagem": "../assets/guincho_coluna_220v_3m.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Guincho%20de%20coluna%20220v%20c%2F%20balde%20c%2F%20bra%C3%A7o%20c%2F%20torre%203m."
+    },
+    {
+        "nome": "Guincho girafa",
+        "descricao": "Guincho girafa robusto para levantamento de carga, ideal para ambientes industriais e de construção.",
+        "imagem": "../assets/guincho_girafa.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Guincho%20girafa."
+    },
+    {
+        "nome": "Guincho Tifor para arraste 3,2t cabo de aço 30m",
+        "descricao": "Guincho Tifor para arraste de até 3,2t, equipado com cabo de aço de 30m.",
+        "imagem": "../assets/guincho_tifor_3_2t_30m.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Guincho%20Tifor%20para%20arraste%203%2C2t%20cabo%20de%20a%C3%A7o%2030m."
+    },
+    {
+        "nome": "Hidro lavadora wap",
+        "descricao": "Hidro lavadora Wap, eficiente para limpeza de pisos e superfícies com alta pressão de água.",
+        "imagem": "../assets/hidro_lavadora_wap.png",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Hidro%20lavadora%20wap."
+    },
+    {
+        "nome": "Jogo de guarda- Corpo para andaime (4 peças)",
+        "descricao": "Jogo completo de guarda-corpo para andaime, composto por 4 peças para maior segurança em altura.",
+        "imagem": "../assets/guarda_corpo_andaime.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Jogo%20de%20guarda-%20corpo%20para%20andaime%20%284%20pe%C3%A7as%29."
+    },
+    {
+        "nome": "Lance de torre de 3m p/ guincho de coluna",
+        "descricao": "Lance de torre de 3m para guincho de coluna, ideal para aumento de altura e alcance no levantamento de cargas.",
+        "imagem": "../assets/lance_torre_3m_guincho_coluna.jpg",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Lance%20de%20torre%20de%203m%20p%2F%20guincho%20de%20coluna."
+    },
+    {
+        "nome": "Lixadeira treme-treme 110v",
+        "descricao": "Lixadeira trem-treme 110v, ideal para acabamentos em superfícies de concreto e madeira.",
+        "imagem": "../assets/lixadeira_trem_treme_110v.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Lixadeira%20trem-treme%20110v."
+    },
+    {
+        "nome": "Macaco-girafa",
+        "descricao": "Macaco-girafa hidráulico de alta capacidade para elevação de veículos e outros equipamentos pesados.",
+        "imagem": "../assets/macaco_girafa.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Macaco-girafa."
+    },
+    {
+        "nome": "Martelo rompedor 11kg com ponteiro e talhadeira",
+        "descricao": "Martelo rompedor de 11kg com ponteiro e talhadeira, ideal para perfuração e remoção de concreto.",
+        "imagem": "../assets/martelo_rompedor_11kg.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Martelo%20rompedor%2011kg%20com%20ponteiro%20e%20talhadeira."
+    },
+    {
+        "nome": "Martelo rompedor 17kg com ponteiro e talhadeira",
+        "descricao": "Martelo rompedor de 17kg com ponteiro e talhadeira, ideal para remoção de concreto e escavação pesada.",
+        "imagem": "../assets/martelo_rompedor_17kg.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Martelo%20rompedor%2017kg%20com%20ponteiro%20e%20talhadeira."
+    },
+    {
+        "nome": "Martelo rompedor 30kg com ponteiro e talhadeira",
+        "descricao": "Martelo rompedor de 30kg com ponteiro e talhadeira, utilizado para demolir concreto de alta resistência.",
+        "imagem": "../assets/martelo_rompedor_30kg.jpg",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Martelo%20rompedor%2030kg%20com%20ponteiro%20e%20talhadeira."
+    },
+    {
+        "nome": "Martelo rompedor 5kg com ponteiro e talhadeira",
+        "descricao": "Martelo rompedor de 5kg com ponteiro e talhadeira, ideal para serviços de menor porte em concreto e alvenaria.",
+        "imagem": "../assets/martelo_rompedor_5kg.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Martelo%20rompedor%205kg%20com%20ponteiro%20e%20talhadeira."
+    },
+    {
+        "nome": "Motoserra a bateria Makita",
+        "descricao": "Motoserra a bateria Makita, leve e potente, ideal para cortes rápidos em madeira.",
+        "imagem": "../assets/motoserra_makita.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Motoserra%20a%20bateria%20Makita."
+    },
+    {
+        "nome": "Perfurador do solo 2t",
+        "descricao": "Perfurador do solo 2t, com broca de 15 e 20 cm e extensores de 0,8m e 1m, ideal para perfuração de solo em construção.",
+        "imagem": "../assets/perfurador_solo_2t.jpg",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Perfurador%20do%20solo%202t."
+    },
+    {
+        "nome": "Placa vibratória com motor a gasolina 4T",
+        "descricao": "Placa vibratória com motor a gasolina 4T, indicada para compactação de solo e asfalto.",
+        "imagem": "../assets/placa_vibratoria_4t.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Placa%20vibrat%C3%B3ria%20com%20motor%20a%20gasolina%204T."
+    },
+    {
+        "nome": "Plataforma para andaime 1,5m",
+        "descricao": "Plataforma para andaime de 1,5m, resistente e segura para trabalhos em altura.",
+        "imagem": "../assets/plataforma_andaime_1_5m.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Plataforma%20para%20andaime%201%2C5m."
+    },
+    {
+        "nome": "Riscadora de piso",
+        "descricao": "Riscadora de piso elétrica para criação de sulcos e acabamentos em pisos de concreto e cerâmica.",
+        "imagem": "../assets/riscadora_piso.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Riscadora%20de%20piso."
+    },
+    {
+        "nome": "Rodas giratórias para andaimes",
+        "descricao": "Rodas giratórias para andaimes, jogo completo com 4 peças para facilitar o transporte e movimentação do andaime.",
+        "imagem": "../assets/rodas_giratórias_andaimes.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20as%20Rodas%20girat%C3%B3rias%20para%20andaimes%20%28jogo%20com%204%20pe%C3%A7as%29."
+    },
+    {
+        "nome": "Sepata regulável para andaimes (4 un)",
+        "descricao": "Sepata regulável para andaimes, jogo com 4 unidades para ajuste de altura e estabilidade.",
+        "imagem": "../assets/sepata_regulavel_andaimes.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Sepata%20regul%C3%A1vel%20para%20andaimes%20%284%20un%29."
+    },
+    {
+        "nome": "Serra circular elétrica manual 220v",
+        "descricao": "Serra circular elétrica manual 220v, perfeita para cortes precisos em madeira e outros materiais.",
+        "imagem": "../assets/serra_circular_manual_220v.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Serra%20circular%20el%C3%A9trica%20manual%20220v."
+    },
+    {
+        "nome": "Serra mármore elétrica manual 220v",
+        "descricao": "Serra mármore elétrica manual 220v, ideal para cortes em mármore, granito e outros materiais pesados.",
+        "imagem": "../assets/serra_marmore_manual_220v.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Serra%20m%C3%A1rmores%20el%C3%A9trica%20manual%20220v."
+    },
+    {
+        "nome": "Serra meia-esquadria 220v Makita",
+        "descricao": "Serra meia-esquadria 220v Makita, perfeita para cortes em ângulos, ideal para marcenaria.",
+        "imagem": "../assets/serra_meia_esquadria_220v_makita.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Serra%20meia-esquadria%20220v%20Makita."
+    },
+    {
+        "nome": "Serra poli corte com motor 220v Bosch ou Makita",
+        "descricao": "Serra poli corte 220v com motor potente, ideal para cortes rápidos e precisos em diversos materiais.",
+        "imagem": "../assets/serra_poli_corte_220v_bosch_makita.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Serra%20poli%20corte%20com%20motor%20220v%20Bosch%20ou%20Makita."
+    },
+    {
+        "nome": "Talha manual 1 a 3 toneladas, corrente 7 a 10 mts",
+        "descricao": "Talha manual de 1 a 3 toneladas, com corrente de 7 a 10 metros para elevação de cargas pesadas.",
+        "imagem": "../assets/talha_manual_1_3ton_7_10mts.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Talha%20manual%201%20a%203%20toneladas%2C%20corrente%207%20a%2010%20mts."
+    },
+    {
+        "nome": "Transpallet manual 2 ton",
+        "descricao": "Transpallet manual 2 ton, ideal para movimentação de paletes e cargas em pequenos armazéns.",
+        "imagem": "../assets/transpallet_manual_2ton.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Transpallet%20manual%202%20ton."
+    },
+    {
+        "nome": "Vibrador de concreto portátil Bosch",
+        "descricao": "Vibrador de concreto portátil Bosch 22v, com mangote de 35mm e extensões de 1,5m/3,5m.",
+        "imagem": "../assets/vibrador_concreto_portatil_bosch_22v.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Vibrador%20de%20concreto%20port%C3%A1til%20Bosch%2022v%20c%2F%20mangote%2035mm%201%2C5m%2F3%2C5m."
+
+    },
+    {
+        "nome": "Vibrador de concreto portátil Bosch",
+        "descricao": "Vibrador de concreto portátil Bosch 22v, com mangote de 35mm e extensões de 1,5m/3,5m.",
+        "imagem": "../assets/vibrador_concreto_portatil_bosch_22v.webp",
+        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Vibrador%20de%20concreto%20port%C3%A1til%20Bosch%2022v%20c%2F%20mangote%2035mm%201%2C5m%2F3%2C5m."
+    }
+]
