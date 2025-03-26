@@ -10,19 +10,25 @@ document.addEventListener("DOMContentLoaded", function () {
     const problemaContainer = document.getElementById("problemaContainer");
     const maquinaContainer = document.getElementById("maquinaContainer");
     const maquinaInput = document.getElementById("maquina");
+    const outraMarcaContainer = document.getElementById("outraMarcaContainer");
+    const outraMarcaInput = document.getElementById("outraMarca");
 
     const form = document.getElementById("serviceForm");
     const btnEnviar = document.getElementById("btnEnviar");
 
     const marcasPorServico = {
-        "Conserto de Betoneiras": ["Menegotti", "CSM", "Maqtron", "Horbach", "Possamai", "Fischer", "Metalpama", "Toyama"],
-        "Conserto de máquinas elétricas": ["Bosch", "Makita", "Menegotti", "CSM"],
-        "Conserto de máquinas a combustão": ["Menegotti", "CSM", "Webber", "Wolcan", "Toyama", "Branco", "Petrotec"]
+        "Conserto de Betoneiras": ["Menegotti", "CSM", "Maqtron", "Horbach", "Possamai", "Fischer", "Metalpama", "Toyama", "Outra..."],
+        "Conserto de máquinas elétricas": ["Bosch", "Makita", "Menegotti", "CSM", "Outra..."],
+        "Conserto de máquinas a combustão": ["Menegotti", "CSM", "Webber", "Wolcan", "Toyama", "Branco", "Petrotec", "Outra..."]
     };
 
     tipoServico.addEventListener("change", function () {
         const servicoSelecionado = tipoServico.value;
-
+        
+        outraMarcaContainer.classList.add("d-none");
+        outraMarcaInput.required = false;
+        outraMarcaInput.value = "";
+        
         if (servicoSelecionado === "Conserto de máquinas elétricas" || servicoSelecionado === "Conserto de máquinas a combustão") {
             maquinaContainer.classList.remove("d-none");
         } else {
@@ -41,6 +47,17 @@ document.addEventListener("DOMContentLoaded", function () {
             marcaContainer.classList.remove("d-none");
         } else {
             marcaContainer.classList.add("d-none");
+        }
+    });
+
+    marca.addEventListener("change", function () {
+        if (marca.value === "outra...") {
+            outraMarcaContainer.classList.remove("d-none");
+            outraMarcaInput.required = true;
+        } else {
+            outraMarcaContainer.classList.add("d-none");
+            outraMarcaInput.required = false;
+            outraMarcaInput.value = "";
         }
     });
 
@@ -73,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         const nome = document.getElementById("nomeCliente").value.trim();
         const servico = tipoServico.value;
-        const marcaSelecionada = marca.value;
+        const marcaSelecionada = marca.value === "outra..." ? outraMarcaInput.value.trim() : marca.value;
         const maquinaSelecionada = maquinaContainer.classList.contains("d-none") ? '' : ` - *Máquina:* ${maquinaInput.value.trim()}\n`;
         const enderecoCompleto = precisaBuscar.checked
             ? `${document.getElementById("rua").value}, Nº ${document.getElementById("numero").value}, ${document.getElementById("bairro").value}, ${document.getElementById("cidade").value}`
