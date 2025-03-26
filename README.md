@@ -16,7 +16,7 @@ McLocadora é um sistema desenvolvido para uma empresa especializada em venda e 
 
 ## Licença
 
-Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para mais informações.
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo [LICENSE](LICENSE) para mais informações.
 
 ## Contribuições
 
