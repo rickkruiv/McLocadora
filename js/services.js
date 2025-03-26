@@ -13,10 +13,9 @@ document.addEventListener("DOMContentLoaded", function () {
     const btnEnviar = document.getElementById("btnEnviar");
 
     const marcasPorServico = {
-        "Conserto de Betoneiras": ["Menegotti", "CSM", "Maqtron", "Horbach", "Possamai", "Fischer",
-            "Metalpama"],
-        "Conserto de máquinas elétricas": ["Menegotti", "CSM", "Maqtron", "Horbach", "Possamai", "Fischer", "Metalpama", "Toyama"],
-        "Conserto de máquinas a combustão": ["Menegotti", "CSM", "Maqtron", "Horbach", "Possamai", "Fischer", "Metalpama", "Toyama"]
+        "Conserto de Betoneiras": ["Menegotti", "CSM", "Maqtron", "Horbach", "Possamai", "Fischer", "Metalpama", "Toyama"],
+        "Conserto de máquinas elétricas": ["Bosch", "Makita", "Menegotti", "CSM"],
+        "Conserto de máquinas a combustão": ["Menegotti", "CSM", "Webber", "Wolcan", "Toyama", "Branco", "Petrotec"]
     }
 
     tipoServico.addEventListener("change", function () {
