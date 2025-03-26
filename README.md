@@ -14,6 +14,10 @@ McLocadora é um sistema desenvolvido para uma empresa especializada em venda e 
 - Detalhes de cada item
 - Navegação fácil e intuitiva
 
+## Licença
+
+Este projeto está licenciado sob a Licença MIT - consulte o arquivo LICENSE para mais informações.
+
 ## Contribuições
 
-> Sinta-se à vontade para contribuir com melhorias, correções ou novas funcionalidades. Abra uma issue ou envie um pull request com suas sugestões.
+Contribuições são bem-vindas! Para sugestões ou melhorias, crie uma issue ou envie um pull request.
