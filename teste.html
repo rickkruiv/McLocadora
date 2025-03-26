@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Serviços</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body class="container mt-5">
+
+    <h2 class="mb-4">Solicitação de Serviço</h2>
+
+    <form id="serviceForm">
+        <!-- Nome do Cliente -->
+        <div class="mb-3">
+            <label for="nomeCliente" class="form-label">Nome do Cliente</label>
+            <input type="text" class="form-control" id="nomeCliente" required>
+        </div>
+
+        <!-- Seleção do Serviço -->
+        <div class="mb-3">
+            <label for="tipoServico" class="form-label">Tipo de Serviço</label>
+            <select class="form-select" id="tipoServico" required>
+                <option value="">Selecione...</option>
+                <option value="conserto">Conserto</option>
+                <option value="manutencao">Manutenção</option>
+                <option value="instalacao">Instalação</option>
+            </select>
+        </div>
+
+        <!-- Seleção da Marca (Mostrado após escolher serviço) -->
+        <div class="mb-3 d-none" id="marcaContainer">
+            <label for="marca" class="form-label">Marca Atendida</label>
+            <select class="form-select" id="marca">
+                <option value="">Selecione...</option>
+            </select>
+        </div>
+
+        <!-- Checkbox: Buscar Produto -->
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="precisaBuscar">
+            <label class="form-check-label" for="precisaBuscar">
+                Precisa buscar o produto?
+            </label>
+        </div>
+
+        <!-- Endereço (Mostrado se checkbox for marcado) -->
+        <div id="enderecoContainer" class="d-none">
+            <h5>Endereço</h5>
+            <input type="text" class="form-control mb-2" id="rua" placeholder="Rua">
+            <input type="text" class="form-control mb-2" id="bairro" placeholder="Bairro">
+            <input type="text" class="form-control mb-2" id="numero" placeholder="Número">
+            <input type="text" class="form-control mb-2" id="cidade" placeholder="Cidade">
+        </div>
+
+        <!-- Checkbox: Sabe identificar o problema? -->
+        <div class="form-check mb-3">
+            <input class="form-check-input" type="checkbox" id="sabeProblema">
+            <label class="form-check-label" for="sabeProblema">
+                Sabe identificar o problema?
+            </label>
+        </div>
+
+        <!-- Descrição do Problema (Mostrado se checkbox for marcado) -->
+        <div class="mb-3 d-none" id="problemaContainer">
+            <label for="descricaoProblema" class="form-label">Descreva o problema</label>
+            <textarea class="form-control" id="descricaoProblema" rows="3"></textarea>
+        </div>
+
+        <!-- Botão Enviar -->
+        <button type="submit" class="btn btn-primary" id="btnEnviar" disabled>Enviar</button>
+    </form>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const tipoServico = document.getElementById("tipoServico");
+            const marcaContainer = document.getElementById("marcaContainer");
+            const marca = document.getElementById("marca");
+
+            const precisaBuscar = document.getElementById("precisaBuscar");
+            const enderecoContainer = document.getElementById("enderecoContainer");
+
+            const sabeProblema = document.getElementById("sabeProblema");
+            const problemaContainer = document.getElementById("problemaContainer");
+
+            const form = document.getElementById("serviceForm");
+            const btnEnviar = document.getElementById("btnEnviar");
+
+            // Lista de marcas para cada serviço
+            const marcasPorServico = {
+                "conserto": ["Marca A", "Marca B", "Marca C"],
+                "manutencao": ["Marca X", "Marca Y", "Marca Z"],
+                "instalacao": ["Marca 1", "Marca 2", "Marca 3"]
+            };
+
+            // Atualiza as marcas baseadas no serviço selecionado
+            tipoServico.addEventListener("change", function () {
+                const servicoSelecionado = tipoServico.value;
+                if (servicoSelecionado) {
+                    marca.innerHTML = '<option value="">Selecione...</option>';
+                    marcasPorServico[servicoSelecionado].forEach(m => {
+                        const option = document.createElement("option");
+                        option.value = m.toLowerCase();
+                        option.textContent = m;
+                        marca.appendChild(option);
+                    });
+                    marcaContainer.classList.remove("d-none");
+                } else {
+                    marcaContainer.classList.add("d-none");
+                }
+            });
+
+            // Exibir ou ocultar o campo de endereço
+            precisaBuscar.addEventListener("change", function () {
+                enderecoContainer.classList.toggle("d-none", !precisaBuscar.checked);
+            });
+
+            // Exibir ou ocultar o campo de descrição do problema
+            sabeProblema.addEventListener("change", function () {
+                problemaContainer.classList.toggle("d-none", !sabeProblema.checked);
+            });
+
+            // Habilita o botão Enviar apenas quando todos os campos obrigatórios estão preenchidos
+            form.addEventListener("input", function () {
+                const nomePreenchido = document.getElementById("nomeCliente").value.trim() !== "";
+                const servicoSelecionado = tipoServico.value !== "";
+                const marcaSelecionada = marca.value !== "";
+                const enderecoOK = !precisaBuscar.checked || (
+                    document.getElementById("rua").value.trim() !== "" &&
+                    document.getElementById("bairro").value.trim() !== "" &&
+                    document.getElementById("numero").value.trim() !== "" &&
+                    document.getElementById("cidade").value.trim() !== ""
+                );
+                const problemaOK = !sabeProblema.checked || document.getElementById("descricaoProblema").value.trim() !== "";
+
+                btnEnviar.disabled = !(nomePreenchido && servicoSelecionado && marcaSelecionada && enderecoOK && problemaOK);
+            });
+
+            // Evento de envio do formulário
+            form.addEventListener("submit", function (event) {
+                event.preventDefault();
+
+                const nome = document.getElementById("nomeCliente").value.trim();
+                const servico = tipoServico.value;
+                const marcaSelecionada = marca.value;
+                const enderecoCompleto = precisaBuscar.checked
+                    ? `${document.getElementById("rua").value}, Nº ${document.getElementById("numero").value}, ${document.getElementById("bairro").value}, ${document.getElementById("cidade").value}`
+                    : "Levarei até a loja";
+                const problemaDescricao = sabeProblema.checked
+                    ? document.getElementById("descricaoProblema").value.trim()
+                    : "Não sei identificar";
+
+                const numeroWhatsApp = "5544997229355"; // Número do WhatsApp
+
+                const mensagem = `Olá, meu nome é *${nome}*!\n\n` +
+                    `Gostaria de solicitar um orçamento para *${servico}*.\n\n` +
+                    ` - *Marca:* ${marcaSelecionada}\n` +
+                    ` - *Endereço:* ${enderecoCompleto}\n` +
+                    ` - *Problema:* ${problemaDescricao}\n\n` +
+                    `Fico no aguardo do retorno. Obrigado(a)!\n\n` +
+                    `Atenciosamente,\n${nome}`;
+
+                const urlWhatsApp = `https://wa.me/${numeroWhatsApp}?text=${encodeURIComponent(mensagem)}`;
+
+                window.open(urlWhatsApp, "_blank");
+            });
+        });
+
+    </script>
+
+</body>
+
+</html>

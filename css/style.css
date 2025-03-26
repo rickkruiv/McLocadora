@@ -7,7 +7,12 @@
 }
 
 body {
-    font-family: "Montserrat", sans-serif
+    font-family: "Montserrat", sans-serif;
+    margin-top: 4rem;
+}
+
+section {
+    margin-top: 10rem;
 }
 
 .navbar {
@@ -16,16 +21,32 @@ body {
     top: 0;
     z-index: 2;
     box-shadow: 0px 2px 10px #dddddd;
+    padding: 1%;
 
     & .navbar-brand {
         display: flex;
         align-items: flex-end;
         gap: 1rem;
 
+        & img {
+            width: 150px !important;
+        }
+
         & span {
             font-family: "Bebas Neue", sans-serif;
             font-size: 2rem
         }
+    }
+
+    .btn {
+        color: #fe4130;
+        border: 1px solid #fe4130;
+        font-weight: 600;
+    }
+
+    .btn:hover {
+        background-color: #fe4130;
+        color: #ffffff;
     }
 }
 
@@ -38,22 +59,79 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: 5.5rem;
-    margin-bottom: 5rem;
+    margin: 4rem auto;
+    width: 1000px;
 
     & h2 {
         text-transform: uppercase;
         font-size: 2rem;
-        margin-bottom: 2rem
     }
 }
 
-footer .container {
-    margin: 0 auto !important
+.send-message form {
+    width: 100%;
+    max-width: 600px;
+    text-align: start;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 16px;
+    margin: 0 auto;
+
+    & button {
+        background-color: #fe4130 !important;
+        border: #fe4130 !important;
+        transition: .2s;
+        padding: 10px;
+        font-size: 16px;
+        border-radius: 5px
+    }
+
+    & button:hover {
+        filter: brightness(.9) !important
+    }
+}
+
+footer {
+
+    & .container {
+        margin: 0 auto !important
+    }
+
+    & .copyright {
+        font-size: .8rem;
+
+        & a {
+            color: #fe4130;
+            text-decoration: none;
+            font-weight: 600;
+        }
+    }
+}
+
+
+@media (max-width: 1000px) {
+    .container {
+        width: auto;
+    }
 }
 
 @media (max-width:600px) {
-    .container {
-        margin: 1.5rem 0
+
+    section {
+        margin-top: 4rem;
+    }
+
+
+
+    .navbar-brand {
+        position: absolute;
+        top: .5rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    body {
+        margin-top: 4rem;
     }
 }

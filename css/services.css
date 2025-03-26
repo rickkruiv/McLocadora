@@ -1,0 +1,45 @@
+.container {
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 2rem;
+}
+
+.servico {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+
+    & h2 {
+        color: #fe4130;
+    }
+}
+
+.marcas {
+
+    width: 100%;
+
+    & h4 {
+        margin: 1rem 0;
+        text-align: center;
+    }
+
+    & .marcas-logo {
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2rem;
+        flex-wrap: wrap;
+
+        & .img-marca {
+            width: 90px;
+        }
+    }
+}
+
+@media (max-width: 600px ) {
+
+    .container {
+        margin-inline: 1rem;
+    }
+}

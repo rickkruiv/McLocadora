@@ -2,8 +2,6 @@
     background-color: #d2d2d2;
     display: flex;
     align-items: center;
-    margin-top: 4.5rem;
-    margin-bottom: 5rem;
     height: 60vh;
     width: 100%;
     padding: 5rem 3rem;
@@ -13,6 +11,11 @@
 
         & .about-title {
             font-family: "Bebas Neue", sans-serif;
+
+            & .img-title {
+                width: 350px;
+                margin-bottom: 2rem;
+            }
 
             & h2 {
                 color: #fe4130;
@@ -33,27 +36,39 @@
     }
 }
 
-form {
-    width: 100%;
-    max-width: 600px;
-    text-align: start;
+.destaque-container {
     display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    padding: 16px;
-    margin: 0 auto;
+    align-items: center;
+    justify-self: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
 
-    & button {
-        background-color: #fe4130 !important;
-        border: #fe4130 !important;
+    & .split-container {
+        
+        color: #ffffff;
+        text-decoration: none;
+        background-color: #fe4130;
+        min-width: 300px;
+        padding: .5rem 3rem;
+        border: 2px solid #fe4130;
+        border-radius: 1rem;
+        cursor: pointer;
+        flex: 1;
+        box-shadow: 3px 3px 10px -3px #2f2f2f;
         transition: .2s;
-        padding: 10px;
-        font-size: 16px;
-        border-radius: 5px
+
+        & .destaque-title {
+            text-transform: uppercase;
+            text-align: center;
+            font-weight: 600;
+            font-size: 1.5rem;
+            margin: 0;
+        }
     }
 
-    & button:hover {
-        filter: brightness(.9) !important
+    & .split-container:hover {
+        filter: brightness(.9);
     }
 }
 
@@ -90,5 +105,26 @@ form {
     .map {
         width: 100%;
         height: 50vh
+    }
+}
+
+@media (max-width: 600px) {
+
+    .sobre {
+        margin-bottom: 2rem;
+    }
+
+    .destaque-container {
+
+        gap: 1rem;
+
+        & .split-container {
+            padding: 1rem 2rem;
+        }
+
+        & .servicos-container {
+            flex-grow: 1 1 2;
+        }
+
     }
 }
