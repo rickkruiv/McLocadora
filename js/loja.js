@@ -1,4 +1,4 @@
-const produtosPorPagina = 18;
+const produtosPorPagina = 15;
 let produtos = [];
 let produtosFiltrados = [];
 let paginaAtual = 1;

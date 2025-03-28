@@ -7,7 +7,7 @@
     },
     {
         "nome": "Alisadora de concreto com motor a gasolina",
-        "descricao": "Alisadora de concreto com motor a gasolina, ideal para acabamento profissional.",
+        "descricao": "Alisadora de concreto com motor a gasolina.",
         "imagem": "assets/Alisadora-de-concreto-com-motor-a-gasolina.webp",
         "link": "https://wa.me/5544997687380?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20a%20Alisadora%20de%20Concreto."
     },
@@ -30,28 +30,22 @@
         "link": "https://wa.me/5544997687380?text=Olá,%20gostaria%20de%20mais%20informações%20sobre%20o%20Aspirador%20de%20Pó%20220v."
     },
     {
-        "nome": "Betoneira 120L/150L",
-        "descricao": "Betoneira com motor monofásico (110/220v), ideal para mistura de concreto.",
-        "imagem": "assets/betoneira.webp",
+        "nome": "Betoneira 150L",
+        "descricao": "Betoneira com motor monofásico (110/220v).",
+        "imagem": "assets/betoneira150.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Betoneira%20120L/150L."
     },
     {
-        "nome": "Betoneira 400L Gasolina",
-        "descricao": "Betoneira 400L com motor a gasolina 4 tempos para grandes volumes.",
-        "imagem": "assets/betoneira.webp",
+        "nome": "Betoneira 150L/400L  ",
+        "descricao": "Betoneira comum 150L e 400L elétrica ou a gasolina.",
+        "imagem": "assets/betoneira400semnormas.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Betoneira%20400L%20Gasolina."
     },
     {
-        "nome": "Betoneira 400L Monofásico",
-        "descricao": "Betoneira 400L com motor monofásico (110/220v) e trifásico (220v).",
-        "imagem": "assets/betoneira.webp",
+        "nome": "Betoneira 600L",
+        "descricao": "Betoneira autocarregável 600L, elétrica.",
+        "imagem": "assets/betoneira600.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Betoneira%20400L%20Monof%C3%A1sico."
-    },
-    {
-        "nome": "Betoneira 400L Normas",
-        "descricao": "Betoneira 400L certificada conforme as normas de segurança.",
-        "imagem": "assets/betoneira.webp",
-        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Betoneira%20400L%20Normas."
     },
     {
         "nome": "Bomba de Sucção",
@@ -61,7 +55,7 @@
     },
     {
         "nome": "Compactador de Solo",
-        "descricao": "Compactador de solo com motor 4T a gasolina, ideal para obras.",
+        "descricao": "Compactador de solo com motor 4T a gasolina.",
         "imagem": "assets/compatadorDeSolo.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Compactador%20de%20Solo."
     },
@@ -85,7 +79,7 @@
     },
     {
         "nome": "Escada de Fibra",
-        "descricao": "Escada ajustável de 4,2 a 7,2m em fibra, resistente e segura.",
+        "descricao": "Escada ajustável de 4,2 a 7,2m em fibra.",
         "imagem": "assets/escadaFibra.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Escada%20de%20Fibra."
     },
@@ -103,7 +97,7 @@
     },
     {
         "nome": "Escora Metálica 3,6m",
-        "descricao": "Escora metálica de 3,6m, ideal para sustentação de estruturas pesadas.",
+        "descricao": "Escora metálica de 3,6m.",
         "imagem": "assets/escoraMetalica.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Escora%20Met%C3%A1lica%203,6m."
     },
@@ -121,43 +115,43 @@
     },
     {
         "nome": "Furadeira a Bateria MAKITA",
-        "descricao": "Furadeira a bateria Makita, modelo compacto e potente para diversos tipos de perfuração.",
+        "descricao": "Furadeira a bateria Makita.",
         "imagem": "assets/parafusadeiraImpacto.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Furadeira%20a%20Bateria%20MAKITA."
     },
     {
         "nome": "Furadeira eletrica SDS Plus para concreto Bosh",
-        "descricao": "Furadeira elétrica SDS Plus da Bosh, ideal para perfuração em concreto e materiais pesados.",
+        "descricao": "Furadeira elétrica SDS Plus da Bosh.",
         "imagem": "assets/marteloPerfurador.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Furadeira%20eletrica%20SDS%20Plus%20para%20concreto%20Bosh."
     },
     {
         "nome": "Gerador de energia",
-        "descricao": "Gerador de energia a gasolina de 3500kva com motor 4T, ideal para pequenas obras e emergências.",
+        "descricao": "Gerador de energia a gasolina de 3500kva com motor 4T.",
         "imagem": "assets/gerador_3500kva.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Gerador%20de%20energia%20a%20gasolina%204t%203500kva."
     },
     {
         "nome": "Gerador de energia",
-        "descricao": "Gerador de energia a gasolina 5500kva com motor 4T, indicado para médios porte de obras.",
+        "descricao": "Gerador de energia a gasolina 5500kva com motor 4T.",
         "imagem": "assets/gerador_5500kva.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Gerador%20de%20energia%20a%20gasolina%204t%205500kva."
     },
     {
         "nome": "Gerador de energia",
-        "descricao": "Gerador de energia a gasolina 8000kva com motor 4T, potente e durável para grandes demandas.",
+        "descricao": "Gerador de energia a gasolina 8000kva com motor 4T.",
         "imagem": "assets/gerador_8000kva.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Gerador%20de%20energia%20a%20gasolina%204t%208000kva."
     },
     {
         "nome": "Guincho de coluna 220v c/ balde c/braço c/ torre 3m",
         "descricao": "Guincho de coluna 220v com balde, braço e torre de 3m.",
-        "imagem": "assets/guincho_coluna_220v_3m.webp",
+        "imagem": "assets/torre3m.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Guincho%20de%20coluna%20220v%20c%2F%20balde%20c%2F%20bra%C3%A7o%20c%2F%20torre%203m."
     },
     {
         "nome": "Guincho girafa",
-        "descricao": "Guincho girafa robusto para levantamento de carga, ideal para ambientes industriais e de construção.",
+        "descricao": "Guincho girafa robusto para levantamento de carga.",
         "imagem": "assets/guincho_girafa.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Guincho%20girafa."
     },
@@ -180,14 +174,8 @@
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Jogo%20de%20guarda-%20corpo%20para%20andaime%20%284%20pe%C3%A7as%29."
     },
     {
-        "nome": "Lance de torre de 3m p/ guincho de coluna",
-        "descricao": "Lance de torre de 3m para guincho de coluna, ideal para aumento de altura e alcance no levantamento de cargas.",
-        "imagem": "assets/lance_torre_3m_guincho_coluna.webp",
-        "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Lance%20de%20torre%20de%203m%20p%2F%20guincho%20de%20coluna."
-    },
-    {
         "nome": "Lixadeira treme-treme 110v",
-        "descricao": "Lixadeira trem-treme 110v, ideal para acabamentos em superfícies de concreto e madeira.",
+        "descricao": "Lixadeira trem-treme 110v.",
         "imagem": "assets/lixadeira_trem_treme_110v.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Lixadeira%20trem-treme%20110v."
     },
@@ -199,13 +187,13 @@
     },
     {
         "nome": "Martelo rompedor 11kg com ponteiro e talhadeira",
-        "descricao": "Martelo rompedor de 11kg com ponteiro e talhadeira, ideal para perfuração e remoção de concreto.",
+        "descricao": "Martelo rompedor de 11kg com ponteiro e talhadeira.",
         "imagem": "assets/martelo_rompedor_11kg.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Martelo%20rompedor%2011kg%20com%20ponteiro%20e%20talhadeira."
     },
     {
         "nome": "Martelo rompedor 17kg com ponteiro e talhadeira",
-        "descricao": "Martelo rompedor de 17kg com ponteiro e talhadeira, ideal para remoção de concreto e escavação pesada.",
+        "descricao": "Martelo rompedor de 17kg com ponteiro e talhadeira.",
         "imagem": "assets/martelo_rompedor_17kg.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Martelo%20rompedor%2017kg%20com%20ponteiro%20e%20talhadeira."
     },
@@ -217,19 +205,19 @@
     },
     {
         "nome": "Martelo rompedor 5kg com ponteiro e talhadeira",
-        "descricao": "Martelo rompedor de 5kg com ponteiro e talhadeira, ideal para serviços de menor porte em concreto e alvenaria.",
+        "descricao": "Martelo rompedor de 5kg com ponteiro e talhadeira.",
         "imagem": "assets/martelo_rompedor_5kg.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Martelo%20rompedor%205kg%20com%20ponteiro%20e%20talhadeira."
     },
     {
         "nome": "Motoserra a bateria Makita",
-        "descricao": "Motoserra a bateria Makita, leve e potente, ideal para cortes rápidos em madeira.",
+        "descricao": "Motoserra a bateria Makita, leve e potente.",
         "imagem": "assets/motoserra_makita.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Motoserra%20a%20bateria%20Makita."
     },
     {
         "nome": "Perfurador do solo 2t",
-        "descricao": "Perfurador do solo 2t, com broca de 15 e 20 cm e extensores de 0,8m e 1m, ideal para perfuração de solo em construção.",
+        "descricao": "Perfurador do solo 2t, com broca de 15 e 20 cm e extensores de 0,8m e 1m.",
         "imagem": "assets/perfurador_solo_2t.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Perfurador%20do%20solo%202t."
     },
@@ -271,19 +259,19 @@
     },
     {
         "nome": "Serra mármore elétrica manual 220v",
-        "descricao": "Serra mármore elétrica manual 220v, ideal para cortes em mármore, granito e outros materiais pesados.",
+        "descricao": "Serra mármore elétrica manual.",
         "imagem": "assets/serra_marmore_manual_220v.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Serra%20m%C3%A1rmores%20el%C3%A9trica%20manual%20220v."
     },
     {
         "nome": "Serra meia-esquadria 220v Makita",
-        "descricao": "Serra meia-esquadria 220v Makita, perfeita para cortes em ângulos, ideal para marcenaria.",
+        "descricao": "Serra meia-esquadria 220v Makita, perfeita para cortes em ângulos.",
         "imagem": "assets/serra_meia_esquadria_220v_makita.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Serra%20meia-esquadria%20220v%20Makita."
     },
     {
         "nome": "Serra poli corte com motor 220v Bosch ou Makita",
-        "descricao": "Serra poli corte 220v com motor potente, ideal para cortes rápidos e precisos em diversos materiais.",
+        "descricao": "Serra poli corte 220v com motor potente.",
         "imagem": "assets/serra_poli_corte_220v_bosch_makita.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20a%20Serra%20poli%20corte%20com%20motor%20220v%20Bosch%20ou%20Makita."
     },
@@ -295,7 +283,7 @@
     },
     {
         "nome": "Transpallet manual 2 ton",
-        "descricao": "Transpallet manual 2 ton, ideal para movimentação de paletes e cargas em pequenos armazéns.",
+        "descricao": "Transpallet manual 2 ton.",
         "imagem": "assets/transpallet_manual_2ton.webp",
         "link": "https://wa.me/5544997687380?text=Ol%C3%A1,%20gostaria%20de%20mais%20informa%C3%A7%C3%B5es%20sobre%20o%20Transpallet%20manual%202%20ton."
     },
