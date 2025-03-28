@@ -102,7 +102,7 @@ footer {
     & .copyright {
         font-size: .8rem;
 
-        & a {
+        & span {
             color: #fe4130;
             text-decoration: none;
             font-weight: 600;
