@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", () => {
         }
     });
 
-    searchButton.addEventListener("click", () => {
+    searchButton.addEventListener("click", ( event ) => {
         event.preventDefault();
         filtrarProdutos();
     });
@@ -91,6 +91,10 @@ function renderizarPaginacao() {
         button.onclick = () => {
             paginaAtual = i;
             atualizarInterface();
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
         };
 
         if (i === paginaAtual) {
